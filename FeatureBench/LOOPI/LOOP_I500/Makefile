@@ -1,7 +1,0 @@
-all: LOOP_I500
-
-LOOP_I500: LOOP_I500.c
-	$(CC) $(CFLAGS) LOOP_I500.c -o LOOP_I500
-
-clean:
-	rm LOOP_I500

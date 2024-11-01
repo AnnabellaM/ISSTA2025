@@ -1,7 +1,0 @@
-all: LOOPD_I300
-
-LOOPD_I300: LOOPD_I300.c
-	$(CC) $(CFLAGS) LOOPD_I300.c -o LOOPD_I300
-
-clean:
-	rm LOOPD_I300

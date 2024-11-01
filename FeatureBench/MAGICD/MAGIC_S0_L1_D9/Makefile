@@ -1,7 +1,0 @@
-all: MAGIC_S0_L1_D9
-
-MAGIC_S0_L1_D9: MAGIC_S0_L1_D9.c
-	$(CC) $(CFLAGS) MAGIC_S0_L1_D9.c -o MAGIC_S0_L1_D9
-
-clean:
-	rm MAGIC_S0_L1_D9

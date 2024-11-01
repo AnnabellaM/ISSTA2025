@@ -1,7 +1,0 @@
-all: RECUR_I500
-
-RECUR_I500: RECUR_I500.c
-	$(CC) $(CFLAGS) RECUR_I500.c -o RECUR_I500
-
-clean:
-	rm RECUR_I500

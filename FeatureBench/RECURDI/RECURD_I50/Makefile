@@ -1,7 +1,0 @@
-all: RECURD_I50
-
-RECURD_I50: RECURD_I50.c
-	$(CC) $(CFLAGS) RECURD_I50.c -o RECURD_I50
-
-clean:
-	rm RECURD_I50
